@@ -1,0 +1,32 @@
+{
+    "name": "vinothvipin/aesencrypt",
+    "type": "library",
+    "description": "Laravel MySql AES Encrypt/Decrypt",
+    "keywords": ["laravel","mysql", "aes", "encrypt"],    
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "vinothvipin",
+            "email": "vinothvipin@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/config": "~6.2",
+        "illuminate/database": "~6.2",
+        "illuminate/support": "~6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevMaster10\\AESEncrypt\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },     
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
